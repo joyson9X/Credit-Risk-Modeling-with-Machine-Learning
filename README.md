@@ -27,33 +27,17 @@ Actionable Business Impact: The analysis concluded that by declining just the to
 
 # How to Run This Project
 1. Get the Data:
-The dataset used (accepted_2007_to_2018Q4.csv.gz) is too large to be hosted on GitHub. Please download it from its official source on Kaggle:
-
-Lending Club Loan Data on Kaggle
-
-Once downloaded, place the .csv.gz file in the same directory as the Jupyter Notebook.
+The dataset used (accepted_2007_to_2018Q4.csv.gz) is too large to be hosted on GitHub. Please download it from its official source on Kaggle: Lending Club Loan Data on Kaggle. Once downloaded, place the .csv.gz file in the same directory as the Jupyter Notebook.
 
 2. Setup the Environment:
-
-This project uses Python. The required libraries can be installed by running the following command in your terminal or the first cell of the notebook:
-
-pip install pandas matplotlib seaborn scikit-learn
+This project uses Python. The required libraries can be installed by running the following command in your terminal or the first cell of the notebook: pip install pandas matplotlib seaborn scikit-learn
 
 3. Run the Notebook:
-
-Open the .ipynb file in Jupyter Lab or Jupyter Notebook.
-
-Make sure the file_path variable in the first code cell points to the correct location of your downloaded data file.
-
-Run the cells sequentially from top to bottom to replicate the analysis.
+Open the .ipynb file in Jupyter Lab or Jupyter Notebook. Make sure the file_path variable in the first code cell points to the correct location of your downloaded data file. Run the cells sequentially from top to bottom to replicate the analysis.
 
 Technology Stack
 Language: Python
-
 Libraries:
-
 Data Analysis: Pandas
-
 Data Visualization: Matplotlib, Seaborn
-
 Machine Learning: Scikit-learn
